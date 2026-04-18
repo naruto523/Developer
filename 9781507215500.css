@@ -1,0 +1,438 @@
+@font-face {
+font-family: "BarlowCondensed";
+src: url(../fonts/BarlowCondensed-Bold.ttf);
+font-style: normal;
+font-weight: bold;
+}
+@font-face {
+font-family: "BarlowCondensed";
+src: url(../fonts/BarlowCondensed-BoldItalic.ttf);
+font-style: italic;
+font-weight: bold;
+}
+@font-face {
+font-family: "BarlowCondensed";
+src: url(../fonts/BarlowCondensed-Italic.ttf);
+font-style: italic;
+font-weight: normal;
+}
+@font-face {
+font-family: "BarlowCondensed";
+src: url(../fonts/BarlowCondensed-Regular.ttf);
+font-style: normal;
+font-weight: normal;
+}
+.ipadfp {
+margin: 0;
+height: 98vh;
+text-align: center;
+}
+.imagefp {
+margin: 0em;
+height: 100%;
+text-align: center;
+}
+.praise1 {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.8em;
+font-weight: normal;
+color: #946F00;
+margin-top: 10%;
+margin-bottom: 1.5em;
+text-align: center;
+}
+.blockquotex {
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 1.2em;
+margin-right: 1.2em;
+text-indent: 0em;
+}
+.noind {
+font-family: "serif", serif;
+font-size: 0.95em;
+margin-top: 0em;
+margin-bottom: 0em;
+text-align: center;
+}
+.noindatt {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.1em;
+color: #946F00;
+margin-top: 0.3em;
+margin-bottom: 1.2em;
+text-align: center;
+}
+.f4 {
+font-family: "BarlowCondensed", sans-serif;
+font-weight: bold;
+}
+.copya {
+margin-top: 5%;
+margin-bottom: 0.2em;
+text-indent: 0em;
+text-align: left;
+}
+.copy {
+font-family: "serif", serif;
+font-size: 0.9em;
+margin-top: 0em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+.copy1 {
+font-family: "serif", serif;
+font-size: 0.9em;
+margin-top: 1em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+.ded1 {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 2.5em;
+font-weight: bold;
+color: #946F00;
+margin-top: 15%;
+margin-bottom: 0em;
+margin-left: 5%;
+margin-right: 5%;
+text-align: center;
+letter-spacing: .1em;
+}
+.ded2 {
+font-family: "serif", serif;
+margin-top: 1.5em;
+margin-bottom: 0em;
+margin-left: 5%;
+margin-right: 5%;
+text-align: center;
+}
+div.sidebar {
+border: 5px solid #B49F53;
+padding: .7em;
+margin-top: 5%;
+margin-bottom: 0em;
+margin-left: .3em;
+margin-right: .3em;
+}
+.h1a {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 2.5em;
+font-weight: bold;
+color: #946F00;
+margin-top: 0.5em;
+margin-bottom: 1.5em;
+page-break-after: avoid;
+text-align: center;
+letter-spacing: .1em;
+}
+.noindent {
+font-family: "serif", serif;
+margin-top: 0em;
+margin-bottom: 0em;
+text-indent: 0em;
+}
+.indent {
+font-family: "serif", serif;
+margin-top: 0em;
+margin-bottom: 0em;
+text-indent: 1.2em;
+}
+ol.nlist {
+list-style-type: none;
+counter-reset: my-awesome-counter;
+margin-top: 1em;
+padding-left: 1.5em;
+margin-bottom: 1em;
+}
+ol.nlist li {
+counter-increment: my-awesome-counter;
+}
+ol.nlist li::before {
+content: counter(my-awesome-counter) ". ";
+font-family: "serif", serif;
+color: #B49F53;
+font-weight: bold;
+}
+.order {
+font-family: "serif", serif;
+margin-top: 0.3em;
+margin-bottom: 0em;
+text-indent: -1em;
+text-align: left;
+}
+.h1part {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.5em;
+font-weight: normal;
+color: #946F00;
+margin-top: 1em;
+margin-bottom: 3em;
+page-break-after: avoid;
+text-align: center;
+letter-spacing: .1em;
+}
+.heading_break {
+display: block;
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.8em;
+font-weight: bold;
+color: #946F00;
+margin-top: 0.5em;
+margin-bottom: 0em;
+page-break-after: avoid;
+text-align: center;
+}
+.f5 {
+border-bottom: 2px solid #B49F53;
+padding-bottom: 0.2em;
+}
+.s-cen1 {
+font-family: "BarlowCondensed", sans-serif;
+margin-top: 1.5em;
+margin-bottom: 0em;
+margin-left: 1.2em;
+margin-right: 1.2em;
+text-align: center;
+}
+.imagex1 {
+margin-top: 1.5em;
+margin-bottom: 0em;
+text-align: center;
+}
+.h2x {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.4em;
+font-weight: bold;
+color: #946F00;
+page-break-after: avoid;
+margin-top: 1.2em;
+margin-bottom: 0.5em;
+text-indent: 0em;
+text-align: left;
+}
+div.sidebar1 {
+border-top: 5px double #B49F53;
+border-bottom: 5px double #B49F53;
+background-color: #E1EDF6;
+padding: 1em;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+margin-left: .3em;
+margin-right: .3em;
+}
+.sb-para {
+font-family: "BarlowCondensed", sans-serif;
+font-weight: normal;
+margin-top: 0em;
+margin-bottom: 0em;
+margin-left: 1.2em;
+margin-right: 1.2em;
+text-align: center;
+}
+ul.blist-1 {
+list-style-image: url("../images/common02.jpg");
+padding-left: 1.5em;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.bull-1 {
+font-family: "serif", serif;
+margin-top: 0.6em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+ul.blist-2 {
+list-style-image: url("../images/common03.jpg");
+padding-left: 1.2em;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+.bull-2 {
+font-family: "serif", serif;
+margin-top: 0.3em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+.h2chap {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 3em;
+font-weight: bold;
+color: #946F00;
+page-break-after: avoid;
+margin-top: 10%;
+margin-bottom: 0.5em;
+text-align: center;
+letter-spacing: .1em;
+}
+.ch-sub1 {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.1em;
+font-weight: bold;
+margin-top: 0em;
+margin-bottom: 0em;
+text-align: center;
+}
+.ch-sub2 {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.1em;
+margin-top: 0.3em;
+margin-bottom: 0em;
+text-align: center;
+}
+.ch-img {
+margin-top: 2em;
+margin-bottom: 0em;
+text-align: center;
+}
+.h3x {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.3em;
+font-weight: bold;
+color: #946F00;
+page-break-after: avoid;
+margin-top: 1.5em;
+margin-bottom: 0.5em;
+text-indent: 0em;
+text-align: left;
+}
+.h2chapx {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 2em;
+font-weight: bold;
+color: #946F00;
+page-break-after: avoid;
+margin-top: 10%;
+margin-bottom: 0.5em;
+text-align: center;
+}
+.f1 {
+font-family: "BarlowCondensed", sans-serif;
+color: #946F00;
+font-weight: bold;
+}
+.imagex2 {
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+text-align: center;
+}
+span.smallcaps {
+text-transform: uppercase;
+font-size: 0.75em;
+font-weight: normal;
+}
+sc {
+text-transform: uppercase;
+font-size: 0.75em;
+}
+.h1bm {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 2.5em;
+font-weight: bold;
+color: #946F00;
+margin-top: 10%;
+margin-bottom: 1em;
+page-break-after: avoid;
+text-align: center;
+letter-spacing: .1em;
+}
+ul.bmhanglist {
+list-style-image: url("../images/common02.jpg");
+padding-left: 1.5em;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+.hang {
+font-family: "serif", serif;
+margin-top: 0.5em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+.f3 {
+font-family: "BarlowCondensed", sans-serif;
+color: #946F00;
+font-weight: normal;
+font-size: 1.2em;
+}
+.f2 {
+font-family: "BarlowCondensed", sans-serif;
+font-size: 1.8em;
+color: #946F00;
+font-weight: bold;
+}
+.imagec {
+margin-top: 2em;
+margin-bottom: 0.3em;
+text-align: center;
+}
+.authors {
+font-family: "sans-serif", sans-serif;
+margin-top: 0em;
+font-size: 1.2em;
+margin-bottom: 0em;
+text-align: center;
+}
+.authorm1 {
+font-family: "sans-serif", sans-serif;
+margin-top: 0em;
+font-size: 0.8em;
+margin-bottom: 0em;
+text-align: center;
+}
+.index-entries {
+list-style-type: none;
+margin-top: 1em;
+margin-bottom: 0em;
+padding-left: .01em;
+}
+.indexsubentry {
+list-style-type: none;
+margin-top: 0em;
+margin-bottom: 0em;
+padding-left: 1em;
+}
+.indextxt {
+font-family: "serif", serif;
+font-size: 0.8em;
+margin-top: 1em;
+margin-bottom: 0em;
+text-indent: 0em;
+text-align: left;
+}
+.indexmain {
+font-family: "serif", serif;
+font-size: 0.8em;
+margin-top: 0em;
+margin-bottom: 0em;
+padding-left: 0.8em;
+text-indent: -0.8em;
+text-align: left;
+}
+.indexsub {
+font-family: "serif", serif;
+margin-top: 0em;
+margin-bottom: 0em;
+padding-left: 0.8em;
+text-indent: -0.8em;
+text-align: left;
+}
+.stickup {
+font-family: "serif", serif;
+font-size: 3em;
+line-height: 0em;
+}
+@media amzn-kf8 {
+  .stickup {
+    font-size: 1.4em;
+  }
+}
+@media amzn-mobi {
+  .stickup {
+    font-size: 1.4em;
+  }
+}
